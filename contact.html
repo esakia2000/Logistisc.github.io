@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ezzz Logistics</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+</head>
+
+<body>
+    <header id="head" class="hhd">
+        <div class="first-block">
+            <a class="ez" href="index.html#head"> Ezzz </a>
+            <nav>
+                <ul class="nav-ul">
+                    <li class="nav-li"> <a class="nav-a" href="index.html"> Home </a> </li>
+                    <li class="nav-li"> <a class="nav-a" href="index.html#main"> About Us </a> </li>
+                    <li class="nav-li"> <a class="nav-a" href="index.html#region"> Regions </a> </li>
+                    <li class="nav-li"> <a class="nav-a" href="index.html#job"> Jobs </a> </li>
+                    <li class="nav-li"> <a class="nav-a" href="contact.html"> Contact </a> </li>
+                </ul>
+            </nav>
+            <div class="menu-btn">
+                <div class="menu-btn__burger"></div>
+            </div>
+            <script src="main.js"></script>
+        </div>
+        <div class="pr">
+            <div class="regform">
+                <h1>Registration Form</h1>
+            </div>
+            <div class="form">
+                <form>
+                    <div class="for">
+                        <h2 class="name">Name</h2>
+                        <input class="firstname" type="text" name="first_name">
+                        <h2 class="name">Country</h2>
+                        <input class="country" type="text" name="country">
+                        <h2 class="name">Email</h2>
+                        <input class="email" type="text" name="email">
+                        <h2 class="name">Phone</h2>
+                        <input class="code" type="tel" name="area_code">
+                        <div class="buto"><button id="button" class="a" type="submit">SUBMIT</button></div>
+                        <script>
+                            document.getElementById('button').addEventListener('click', function() {
+                                alert('Your Information has been submitted successfully')
+                            })
+                        </script>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </header>
+    <footer>
+        <div class="f">
+            <div class="f2">
+                <h2>Ezzz</h2>
+                <div class="icons">
+                    <a href="https://www.facebook.com/" target="_blank"> <i class="fab fa-facebook f-b"></i> </a>
+                    <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter t-w"></i></a>
+                    <a href="https://www.google.com/" target="_blank"><i class="fab fa-google-plus-g g-p"></i></a>
+                </div>
+            </div>
+            <div class="f5">
+                <div class="mail">
+                    <i class="far fa-envelope con"></i>
+                    <a class="c" href="mailto:name@rapidtables.com?subject=The%20subject%20of%20the%20mail">EsakLogistic@gmail.com</a>
+                </div>
+                <div class="call">
+                    <i class="fas fa-phone-alt callt"></i>
+                    <a class="c" href="tel:+995 533 33 33 33">+995 533 33 33 33</a>
+                </div>
+                <div class="loc">
+                    <i class="fas fa-map-marker-alt loca"></i>
+                    <a class="c" href="https://goo.gl/maps/A2ryawNkKL8yJH9Q7">Main Str Chicago Ilinois</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
